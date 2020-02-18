@@ -19,15 +19,9 @@
     git push -u origin master
 
 ```
+4. Install "Go plugin" in Jenkins
 
-4. Add files/directories into local repository
-```shell
-  $ git add .
-```
-
-5. Install "Go plugin" in Jenkins
-
-6. Cofigure Go as global tool
+5. Cofigure Go as global tool
 ```jenkins
   Jenkins -> Manage Jenkins -> Global Tool Configuration
     Name: go-1.12
@@ -36,9 +30,9 @@
     version: Go 1.12
  ```
 
-7. Enhance Jenkinsfile
+6. Enhance Jenkinsfile
 
-8. Commit/push
+7. Add/Commit/Push
 ```shell
   $ git add .
   $ git commit -m "go-on-jenkins 1st commit"
